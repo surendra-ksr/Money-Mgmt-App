@@ -1,0 +1,163 @@
+/* Write your CSS here */
+.main-div {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-family: 'Roboto';
+}
+.topDiv {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 25px;
+  border-radius: 15px;
+  background-size: cover;
+  width: 80vw;
+}
+.top-h1 {
+  color: #1e293b;
+  font-size: 45px;
+}
+.top-p {
+  color: #1e293b;
+  font-weight: 400;
+  font-size: 20px;
+}
+span {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+.lastDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+}
+.lDiv {
+  padding: 30px;
+  border: 1px solid #d7dfe9;
+  border-radius: 15px;
+  padding-left: 50px;
+}
+.historyDiv {
+  margin-left: 30px;
+}
+.lastP {
+  color: #475569;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 25vw;
+}
+.labelItem {
+  color: #7e858e;
+  margin-bottom: 8px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+.inputCss {
+  padding: 8px;
+  outline: none;
+  margin-bottom: 5px;
+  width: 22vw;
+  border-color: #c4cad1;
+  border-style: solid;
+  font-size: 18px;
+}
+.ulDiv {
+  list-style-type: none;
+  width: 40vw;
+  padding-left: 0;
+}
+.htTop {
+  display: flex;
+  justify-content: flex-start;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d7dfe9;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.liP {
+  color: #334155;
+  font-weight: 500;
+}
+select {
+  color: #1e293b;
+}
+.addButton {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-width: 0;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 631px) {
+  .img1 {
+    margin-right: 15px;
+  }
+  .div2 {
+    margin-right: 0;
+  }
+  .div3 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .div4 {
+    margin-left: 0;
+  }
+  .divBox {
+    padding-right: 20px;
+  }
+  .lastDiv {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lDiv {
+    width: 80vw;
+    margin-bottom: 20px;
+  }
+  .historyDiv {
+    margin-left: 0;
+  }
+  .htTop {
+    width: 65vw;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 632px) and (max-width: 992px) {
+  .midDiv {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .img1 {
+    margin-right: 15px;
+  }
+  .divBox {
+    width: 35vw;
+  }
+  .div3 {
+    margin-right: 0;
+  }
+  .div4 {
+    flex-grow: 1;
+    margin-left: 0;
+  }
+}
